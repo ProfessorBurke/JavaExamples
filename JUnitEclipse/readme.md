@@ -1,3 +1,3 @@
-# Creating a JUnit Project in Eclipse
+# Repository for the code from the <a href="https://www.youtube.com/@DesignCodeDebugRepeat">DesignCodeDebugRepeat</a> videos on JUnit testing in Java with Eclipse
 
-This is the code that goes with the video on creating a JUnit project in Eclipse.  It includes the Rectangle.java, RectangleText.java, and javadoc files.
+This folder contains the code examples from the videos on adding prewritten JUnit tests to a project and writing your own JUnit tests for methods and classes.
