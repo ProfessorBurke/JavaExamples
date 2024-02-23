@@ -6,7 +6,7 @@
  * complete a proverb and guess the correct proverb.
  * <p>
  * Provides a prompt of the form, There is an old &lt;origin&gt; proverb: 
- * ì&lt;start of proverb&gt;î + "..."
+ * ‚Äú&lt;start of proverb&gt;‚Äù + "..."
  * <p>
  * Provides the proverb of the form There is an old &lt;origin&gt; proverb:
  * &lt;start of proverb&gt &lt;end of proverb&gt
