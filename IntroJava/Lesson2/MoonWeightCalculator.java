@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Obtain's the user's weight on Earth, then calculates and displays the user's
+ * Obtains the user's weight on Earth, then calculates and displays the user's
  * weight on the moon using the formula earthWeight / 9.81 * 1.622.
  * 2/23/2024
  * 
@@ -25,10 +25,10 @@ public class MoonWeightCalculator {
 		earthWeight = stdin.nextDouble();
 		stdin.close();
 		
-		// Calculate the user's weight on the moon.
+		// Calculates the user's weight on the moon.
 		moonWeight = earthWeight / EARTH_GRAVITY * MOON_GRAVITY;
 		
-		// Display the user's weight on the moon.
+		// Displays the user's weight on the moon.
 		System.out.println("Your weight on the moon is " + moonWeight + ".");
 	}
 
