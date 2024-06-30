@@ -44,7 +44,8 @@ public class SimpleQuizSwitch {
 			    break;
 			default:
 				assert (answer != 'a' && answer != 'b' && answer != 'c' 
-						&& answer != 'd');
+						&& answer != 'd' && answer != 'A' && answer != 'B'
+						&& answer != 'C' && answer != 'D');
 				System.out.println("I'm sorry, that wasn't an option.");
 		}
 	}
