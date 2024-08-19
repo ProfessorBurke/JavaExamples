@@ -14,7 +14,7 @@ public class ClockSimulation {
 		minutes = 0;
 		while (minutes < 60) {
 			// The inner loop has an initializer on line 18, test on 19,
-			// and updater on 23.
+			// and updater on 21.
 			seconds = 0;
 			while (seconds < 60) {
 				System.out.printf("%02d:%02d\n", minutes, seconds);
