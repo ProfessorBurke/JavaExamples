@@ -1,7 +1,25 @@
 import java.util.Scanner;
 
+/**
+ * Poses a question to the user and obtains their answer until they give the
+ * correct answer.
+ * 
+ * @author Maggie
+ *
+ */
 public class SimpleQuizMethod {
 	
+	/**
+	 * Poses a question to the user and obtains a valid answer.
+	 * 
+	 * @param question	the question being posed
+	 * @param answerA	the answer designated answer a
+	 * @param answerB	the answer designated answer b
+	 * @param answerC	the answer designated answer c
+	 * @param answerD	the answer designated answer d
+	 * @param stdin		a Scanner initialized to the input stream System.in
+	 * @return			the user's answer a, b, c, or d
+	 */
 	public static char poseQuestion(String question, String answerA,
 			String answerB, String answerC, String answerD,
 			Scanner stdin) {
@@ -28,7 +46,7 @@ public class SimpleQuizMethod {
 		while (answer != 'c') {
 			
 			answer = poseQuestion("What is the complement of 400 <= co2Reading && co2Reading <= 800?",
-					"a) 400 <= co2Reading || co2Reading <= 800",
+					"a)" +  "400 <= co2Reading || co2Reading <= 800",
 					"b) 400 > co2Reading && co2Reading > 800",
 					"c) 400 > co2Reading || co2Reading > 800",
 					"d) 400 < co2Reading || co2Reading < 800",
