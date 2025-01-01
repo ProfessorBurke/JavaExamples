@@ -55,7 +55,6 @@ public class GiniMethods {
 			gini1 = obtainValidGini(stdin);
 			System.out.print("Please enter the second year: ");
 			year2 = stdin.nextInt();
-			System.out.print("Please enter the second year's Gini coefficient: ");
 			gini2 = obtainValidGini(stdin);
 			stdin.nextLine();
 			
