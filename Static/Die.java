@@ -10,7 +10,7 @@ import java.util.Random;
 	-------------------------
 	+ Die()
 	+ Die(numSides: int)
-	+ getValue() : int
+	+ getFaceValue() : int
 	+ roll()
 	-------------------------
 
